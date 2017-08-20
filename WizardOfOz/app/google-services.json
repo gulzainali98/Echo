@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "339342434527",
+    "firebase_url": "https://wizard-dedb0.firebaseio.com",
+    "project_id": "wizard-dedb0",
+    "storage_bucket": "wizard-dedb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339342434527:android:840a1e8c8573b423",
+        "android_client_info": {
+          "package_name": "com.app.wizardofoz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339342434527-fgq8796989hgsa0klru799enc3gpcmb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.wizardofoz",
+            "certificate_hash": "a9ed154ff0f21ddfdbf3e0f6fcd866679cecaf33"
+          }
+        },
+        {
+          "client_id": "339342434527-ncjm99kavap0u27p5dku6k6d2rraclut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnB1_WkYoEE9_3JHZ5mnuvhn3fp-z3L7w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339342434527-ncjm99kavap0u27p5dku6k6d2rraclut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
