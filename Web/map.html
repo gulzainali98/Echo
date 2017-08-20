@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Map Alerts - Echo</title>
+    <link rel='stylesheet' href='map.css' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://cdn.klokantech.com/maptilerlayer/v1/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    
+<!--------------------------------------------------------------------------------->
+    
+<body>
+    <div class= "top-nav">
+        <img class="logo" src="logo-echo.png">
+        <div class="id-img"></div>
+        
+        <div class="notf-img">
+            <img class="notf" src="bell.png">
+        </div>
+        
+    </div>
+    
+    <div id="map" style="width:100%; height: 580px;" > </div>
+    <img class="marker" src="ggg.png">
+   
+    <audio controls>
+      <source src="electronic_alert.mp3" type="audio/ogg">
+    </audio>
+    
+    <script>
+        function myMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(33.666502, 73.040625),
+                zoom: 15,
+                mapTypeId: google.maps.MapTypeId.MAP
+            }
+            
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+        
+        function alert() {
+           
+            navigator.geolocation;
+            navigator.geolocation.getCurrentPosition();
+            
+            var lat = position.coords.latitude  
+            var long = position.coords.longitude;
+            
+            var mapOptions = {
+                center: new google.maps.LatLng(lat, long),
+                zoom: 15,
+                mapTypeId: google.maps.MapTypeId.MAP
+            }
+            
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</body>
+
+
+</html>

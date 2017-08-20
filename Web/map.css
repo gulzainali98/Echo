@@ -1,0 +1,58 @@
+.top-nav{
+    height: 50px;
+    width: 100%;
+    background-color: #B9C1A4; 
+    box-shadow: 0px 10px 20px #888888;
+}
+
+.id-img{
+    float: right;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: #5F7A9B;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.logo{
+    float: left;
+    height: 30px;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.notf-img{
+    float: right;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: #5F7A9B;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.notf{
+    height: 10px;
+    width:auto;
+    color: white;
+    margin: 5px;
+}
+
+.marker{
+    max-height: 20px;
+    width: auto;
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transition:max-height 0.15s ease-out;
+    
+}
+.marker:hover{
+    max-height: 30px;
+    transition: max-height 0.25s ease-in;
+}
