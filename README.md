@@ -13,5 +13,6 @@ You can find Machine Learning model's demo here: https://devpost.com/software/ec
 We have processed assasination video of beynazir(a prominent Pakistani Politician) through our model which succesfully detected gunshot in the audio and displays text "GUN SHOT DETECTED" in red color at that instance. You can find it here:
 
 
-# Presentation : https://docs.google.com/presentation/d/1BcUKqgyR6hkIX3SA8ylv-LfnNpVDDX8IIq7wqK2LuY8/edit#slide=id.g24e9e6a323_3_0
+# Presentation :
+https://docs.google.com/presentation/d/1BcUKqgyR6hkIX3SA8ylv-LfnNpVDDX8IIq7wqK2LuY8/edit#slide=id.p
 
