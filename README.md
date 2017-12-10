@@ -8,10 +8,10 @@ We have a machine learning system in app that is trained on gunshots, and has an
 
 You can find Projects Demo on here: https://devpost.com/software/echo-q65yj9
 
-You can find Machine Learning model's demo here: https://devpost.com/software/echo-q65yj9
 
-We have processed assasination video of beynazir(a prominent Pakistani Politician) through our model which succesfully detected gunshot in the audio and displays text "GUN SHOT DETECTED" in red color at that instance. You can find it here:
 
+We have processed assasination video of beynazir(a prominent Pakistani Politician) through our model which succesfully detected gunshot in the audio and displays text "GUN SHOT DETECTED" in red color at that instance. You can find it here.
+Machine Learning model's demo: 
 
 # Presentation :
 https://docs.google.com/presentation/d/1BcUKqgyR6hkIX3SA8ylv-LfnNpVDDX8IIq7wqK2LuY8/edit#slide=id.p
